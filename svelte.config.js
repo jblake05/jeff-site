@@ -20,7 +20,11 @@ const config = {
 			// fallback: undefined,
 			precompress: false,
 			strict: true
-		})
+		}),
+		paths: {
+			// change once you move this to be the main github page
+			base: "/jeff-site"
+		}
 	}
 };
 
